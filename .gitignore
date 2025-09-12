@@ -83,10 +83,11 @@ ruby/
 .zshrc
 zshenv
 .zshenv
-/config/credentials/development.key
 
-/config/credentials/stage.key
-
-/config/credentials/test.key
+/config/credentials/*.key
 
 /config/master.key
+
+/config/credentials.yml.enc
+
+/config/credentials/*.yml.enc
